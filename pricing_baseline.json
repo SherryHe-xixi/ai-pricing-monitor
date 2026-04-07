@@ -1,0 +1,2092 @@
+{
+  "last_updated": "2026-04-07T21:10:34",
+  "total_products": 136,
+  "monitored_products": {
+    "OpenAI API": {
+      "url": "https://openai.com/api/pricing/",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "OpenAI",
+      "tiers": {
+        "旗舰": "in:$2.50 out:$15.00",
+        "旗舰(上代)": "in:$2.00 out:$8.00",
+        "均衡": "in:$2.50 out:$10.00",
+        "轻量": "in:$0.40 out:$1.60",
+        "超轻": "in:$0.05 out:$0.20",
+        "推理": "in:$2.00 out:$8.00",
+        "推理(轻量)": "in:$1.10 out:$4.40"
+      },
+      "content_hash": "",
+      "auto_scan": false,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Claude API": {
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "Anthropic",
+      "tiers": {
+        "Opus 4.6": "in:$5.00 out:$25.00",
+        "Opus 4.5": "in:$5.00 out:$25.00",
+        "Opus 4.1": "in:$15.00 out:$75.00",
+        "Opus 4": "in:$15.00 out:$75.00",
+        "Sonnet 4.6": "in:$3.00 out:$15.00",
+        "Sonnet 4.5": "in:$3.00 out:$15.00",
+        "Sonnet 4": "in:$3.00 out:$15.00",
+        "Haiku 4.5": "in:$1.00 out:$5.00",
+        "Haiku 3.5": "in:$0.80 out:$4.00",
+        "Haiku 3": "in:$0.25 out:$1.25",
+        "Fast Mode (Opus 4.6)": "in:$30.00 out:$150.00",
+        "Batch折扣": "50%优惠(所有模型)",
+        "Web Search": "$10/1000次搜索",
+        "注": "1M上下文窗口标准定价(无长文本加价); Opus 4.6起支持数据驻留(US-only 1.1x)",
+        "Free": "免费",
+        "Pro": "$20/月(年付$17/月)",
+        "Max 5x": "$100/月",
+        "Max 20x": "$200/月",
+        "Team Standard": "$25/人/月(年付)/$30(月付)",
+        "Team Premium": "$150/人/月",
+        "Enterprise": "席位费+用量按API计费(定制)"
+      },
+      "content_hash": "3aa1d746da68597f7e86ce8bbd834173",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Gemini API": {
+      "url": "https://ai.google.dev/pricing",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "Google DeepMind",
+      "tiers": {
+        "旗舰": "in:$1.25 (≤200K)\n$2.50 (>200K) out:$10.00 (≤200K)\n$15.00 (>200K)",
+        "旗舰(预览)": "in:$2.00 (≤200K)\n$4.00 (>200K) out:$12.00 (≤200K)\n$18.00 (>200K)",
+        "均衡": "in:$0.30 out:$2.50",
+        "轻量": "in:$0.10 out:$0.40",
+        "Free": "仅Flash/Flash-Lite(Pro模型需付费,2026.4.1起)",
+        "Google AI Pro": "$19.99/月",
+        "Google AI Ultra": "$249.99/月",
+        "注": "2026.4.1起强制月度消费上限(Tier1:$250),新用户需预付费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-06",
+      "scan_priority": 1
+    },
+    "Mistral API": {
+      "url": "https://mistral.ai/pricing",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "Mistral AI",
+      "tiers": {
+        "旗舰(mistral-large-3)": "in:$2.00 out:$6.00",
+        "轻量(ministral-8b)": "in:$0.10 out:$0.10",
+        "Le Chat Free": "免费(~25 messages/day)",
+        "Le Chat Pro": "$14.99/月",
+        "Le Chat Student": "$7.04/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Cohere API": {
+      "url": "https://cohere.com/pricing",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "Cohere",
+      "tiers": {
+        "旗舰(Command R+)": "in:$2.50 out:$10.00",
+        "轻量(Command R)": "in:$0.15 out:$0.60",
+        "Aya Expanse": "in:$0.50 out:$1.50",
+        "Embed v3": "$0.10/百万tokens",
+        "Rerank v3": "$2/1000次搜索"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "AI21 Studio": {
+      "url": "https://www.ai21.com/pricing",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "AI21 Labs",
+      "tiers": {
+        "旗舰": "in:$2.00 out:$8.00",
+        "轻量": "in:$0.20 out:$0.40"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Amazon Bedrock": {
+      "url": "https://aws.amazon.com/bedrock/pricing/",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "AWS",
+      "tiers": {
+        "平台": "in:因模型而异 out:因模型而异"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Azure OpenAI": {
+      "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "Microsoft",
+      "tiers": {
+        "平台": "in:与OpenAI同价或略高 out:与OpenAI同价或略高"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Together AI": {
+      "url": "https://www.together.ai/pricing",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "Together AI",
+      "tiers": {
+        "旗舰(托管)": "in:$3.00 out:$7.00",
+        "均衡(托管)": "in:$0.88 out:$0.88",
+        "轻量(托管)": "in:$0.10 out:$0.10"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Fireworks AI": {
+      "url": "https://fireworks.ai/pricing",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "Fireworks AI",
+      "tiers": {
+        "旗舰(托管)": "in:$1.00 out:$3.20",
+        "均衡(托管)": "in:$0.56 out:$1.68",
+        "轻量(托管)": "in:$0.20 out:"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Groq API": {
+      "url": "https://groq.com/pricing",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "Groq",
+      "tiers": {
+        "旗舰(大模型120B+)": "in:$0.59-$1.00 out:$0.79-$1.50",
+        "轻量(Llama 3.1 8B)": "in:$0.05 out:$0.08",
+        "中等(Llama 70B)": "in:$0.59 out:$0.79",
+        "Free": "免费(有限额度)",
+        "Batch": "50%折扣"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Perplexity API": {
+      "url": "https://docs.perplexity.ai/guides/pricing",
+      "category": "LLM API",
+      "region": "海外",
+      "company": "Perplexity AI",
+      "tiers": {
+        "旗舰": "in:$3.00 out:$15.00",
+        "推理": "in:$2.00 out:$8.00",
+        "轻量": "in:$1.00 out:$1.00",
+        "Free": "免费",
+        "Pro": "$20/月($200/年)",
+        "Max": "$200/月",
+        "Enterprise": "$40-$325/席位",
+        "Enterprise Pro": "$40/席/月",
+        "Enterprise Performance": "$325/席/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "通义千问 API": {
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "阿里云",
+      "tiers": {
+        "旗舰(Qwen3-Max)": "in:¥2.50 out:待确认",
+        "均衡(Qwen3.5-Plus)": "in:¥0.80 out:待确认",
+        "长文本(Qwen-Long)": "in:¥0.50 out:待确认",
+        "Batch": "实时推理价格50%",
+        "免费版": "新用户7000万Tokens免费额度"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "DeepSeek API": {
+      "url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "深度求索",
+      "last_updated": "2026-04-06",
+      "tiers": {
+        "旗舰(V4)": "in:$0.30 out:$0.50 (缓存输入$0.03)",
+        "旗舰(通用/deepseek-chat V3.2)": "in:$0.28 out:$0.42",
+        "推理(deepseek-reasoner V3.2)": "in:$0.28 out:$0.42",
+        "推理(R1)": "in:$0.70 out:$2.50"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-06",
+      "scan_priority": 1
+    },
+    "文心大模型 API": {
+      "url": "https://cloud.baidu.com/doc/WENXINWORKSHOP/s/hlrk4akp7",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "百度",
+      "tiers": {
+        "旗舰": "in:¥6.00 (≤32K)\n¥10.00 (>32K) out:¥24.00 (≤32K)\n¥40.00 (>32K)",
+        "均衡": "in:¥0.80 out:¥3.20",
+        "轻量": "in:免费 out:免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "豆包大模型 API": {
+      "url": "https://www.volcengine.com/docs/82379/1544106",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "字节跳动",
+      "tiers": {
+        "旗舰(豆包2.0 Pro ≤32K)": "in:¥3.20 out:¥16.00",
+        "Seedance 2.0视频API": "in:¥28-46/百万tokens",
+        "免费版": "新用户每模型50万Tokens免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "GLM API": {
+      "url": "https://open.bigmodel.cn/pricing",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "智谱AI",
+      "tiers": {
+        "旗舰": "in:¥5.00 out:待确认",
+        "免费": "in:免费 out:免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Moonshot API": {
+      "url": "https://platform.moonshot.cn/docs/pricing/chat",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "月之暗面",
+      "tiers": {
+        "旗舰": "in:$0.60 out:$2.50"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "讯飞星火 API": {
+      "url": "https://xinghuo.xfyun.cn/sparkapi",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "科大讯飞",
+      "tiers": {
+        "旗舰": "in:约¥21 (¥0.21/万token) out:待确认",
+        "免费": "in:免费 out:免费",
+        "免费版": "免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "MiniMax API": {
+      "url": "https://platform.minimax.io/docs/pricing/overview",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "MiniMax",
+      "tiers": {
+        "旗舰": "in:$0.30 out:$1.20",
+        "均衡": "in:$0.118 out:$0.99"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "百川 API": {
+      "url": "https://platform.baichuan-ai.com/prices",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "百川智能",
+      "tiers": {
+        "旗舰": "in:¥100 (输入输出均价) out:"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "腾讯混元 API": {
+      "url": "https://cloud.tencent.com/document/product/1729/97731",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "腾讯",
+      "tiers": {
+        "均衡": "in:¥0.80 out:¥2.00",
+        "免费": "in:免费 out:免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "阶跃星辰 API": {
+      "url": "https://platform.stepfun.com/docs/zh/pricing/details",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "阶跃星辰",
+      "tiers": {
+        "推理": "in:阶梯定价 out:¥10.00"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "零一万物 API": {
+      "url": "https://platform.lingyiwanwu.com/docs/pricing",
+      "category": "LLM API",
+      "region": "国内",
+      "company": "零一万物",
+      "tiers": {
+        "旗舰": "in:待确认 out:待确认"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "ChatGPT": {
+      "url": "https://chatgpt.com/pricing/",
+      "category": "AI 助手",
+      "region": "海外",
+      "company": "OpenAI",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "Free": "免费",
+        "Go": "$8/月",
+        "Plus": "$20/月",
+        "Pro": "$200/月",
+        "Business": "$25/人/月(月付)/$20/人/月(年付)",
+        "Codex-only席位": "按用量付费(pay-as-you-go)，按token消耗计费",
+        "Enterprise": "~$60/人/月起(定制)\n150席年付≈$108K/年"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-06",
+      "scan_priority": 1
+    },
+    "Claude": {
+      "url": "https://claude.com/pricing",
+      "category": "AI 助手",
+      "region": "海外",
+      "company": "Anthropic",
+      "tiers": {
+        "按API计费": "随API用量(通过Pro/Max/Team订阅)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Gemini": {
+      "url": "https://one.google.com/intl/en/about/google-ai-plans/",
+      "category": "AI 助手",
+      "region": "海外",
+      "company": "Google",
+      "tiers": {
+        "Business Std": "$14/人/月",
+        "Business Plus": "$22/人/月",
+        "Enterprise": "联系销售"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Perplexity": {
+      "url": "https://www.perplexity.ai/pro",
+      "category": "AI 助手",
+      "region": "海外",
+      "company": "Perplexity AI",
+      "tiers": {
+        "Free": "免费",
+        "Pro": "$20/月($200/年)",
+        "Max": "$200/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Microsoft Copilot": {
+      "url": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/individuals",
+      "category": "AI 助手",
+      "region": "海外",
+      "company": "Microsoft",
+      "tiers": {
+        "Free": "免费",
+        "M365 Premium(含Copilot Pro)": "$19.99/月",
+        "Copilot Business": "$21/人/月(年付)\n促销$18/人/月(至2026.6)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Grok": {
+      "url": "https://grok.com/plans",
+      "category": "AI 助手",
+      "region": "海外",
+      "company": "xAI",
+      "last_updated": "2026-04-07",
+      "tiers": {
+        "Free": "免费(~10 prompts/2h)",
+        "SuperGrok Lite": "$10/月",
+        "SuperGrok": "$30/月($300/年)",
+        "SuperGrok Heavy": "$300/月",
+        "Grok Business": "$30/人/月",
+        "API Grok 4": "in:$3.00 out:$15.00",
+        "API Grok 4.1 Fast": "in:$0.20 out:$0.50"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-07",
+      "scan_priority": 1
+    },
+    "Poe": {
+      "url": "https://poe.com/subscribe",
+      "category": "AI 助手",
+      "region": "海外",
+      "company": "Quora",
+      "tiers": {
+        "Free": "免费",
+        "Poe 入门": "$4.99/月",
+        "Poe 标准": "$19.99/月\n($199.99/年)",
+        "Poe Premium": "$250/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "You.com": {
+      "url": "https://you.com/plans",
+      "category": "AI 助手",
+      "region": "海外",
+      "company": "You.com",
+      "tiers": {
+        "Free": "免费",
+        "YouPro": "$20/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Kimi": {
+      "url": "https://kimi.moonshot.cn/pricing",
+      "category": "AI 助手",
+      "region": "国内",
+      "company": "月之暗面",
+      "tiers": {
+        "免费版": "免费",
+        "会员": "灰度测试中(价格待定)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "豆包": {
+      "url": "https://www.doubao.com",
+      "category": "AI 助手",
+      "region": "国内",
+      "company": "字节跳动",
+      "tiers": {
+        "免费": "免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "文心一言": {
+      "url": "https://yiyan.baidu.com",
+      "category": "AI 助手",
+      "region": "国内",
+      "company": "百度",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "全面免费": "免费(2025年4月起全面免费，原¥59.9/月会员已取消)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 1
+    },
+    "通义千问": {
+      "url": "https://tongyi.aliyun.com",
+      "category": "AI 助手",
+      "region": "国内",
+      "company": "阿里",
+      "tiers": {},
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "DeepSeek Chat": {
+      "url": "https://chat.deepseek.com",
+      "category": "AI 助手",
+      "region": "国内",
+      "company": "深度求索",
+      "tiers": {
+        "免费版": "免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "讯飞星火": {
+      "url": "https://xinghuo.xfyun.cn",
+      "category": "AI 助手",
+      "region": "国内",
+      "company": "科大讯飞",
+      "tiers": {},
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "智谱清言": {
+      "url": "https://chatglm.cn",
+      "category": "AI 助手",
+      "region": "国内",
+      "company": "智谱AI",
+      "tiers": {
+        "免费版": "免费",
+        "龙虾套餐会员": "¥39/月起"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "天工AI": {
+      "url": "https://www.tiangong.cn",
+      "category": "AI 助手",
+      "region": "国内",
+      "company": "昆仑万维",
+      "tiers": {
+        "免费版": "免费",
+        "免费": "免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "海螺AI": {
+      "url": "https://hailuoai.com",
+      "category": "AI 助手",
+      "region": "国内",
+      "company": "MiniMax",
+      "tiers": {
+        "免费版": "免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "腾讯元宝": {
+      "url": "https://yuanbao.tencent.com",
+      "category": "AI 助手",
+      "region": "国内",
+      "company": "腾讯",
+      "tiers": {
+        "免费版": "免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "GitHub Copilot": {
+      "url": "https://github.com/features/copilot/plans",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "GitHub/Microsoft",
+      "tiers": {
+        "Free": "免费(2000补全/月+50 premium requests/月)",
+        "Pro": "$10/月($100/年)",
+        "Pro+": "$39/月",
+        "Business": "$19/人/月",
+        "Enterprise": "$39/人/月"
+      },
+      "content_hash": "a489195f2ada4bb6a1f1067fcdf85534",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Cursor": {
+      "url": "https://www.cursor.com/pricing",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "Anysphere",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "Hobby": "免费",
+        "Pro": "$20/月",
+        "Pro+": "$60/月",
+        "Ultra": "$200/月",
+        "Teams": "$40/人/月",
+        "Enterprise": "定制"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 1
+    },
+    "Windsurf": {
+      "url": "https://windsurf.com/pricing",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "Codeium",
+      "tiers": {
+        "Free": "免费",
+        "Pro": "$20/月(每日/每周配额制,原$15用户价格保留)",
+        "Max": "$200/月",
+        "Teams": "$40/人/月",
+        "Enterprise": "定制",
+        "注": "2026.3.19起credits改为quotas配额制"
+      },
+      "last_updated": "2026-04-06",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-06",
+      "scan_priority": 1
+    },
+    "Devin": {
+      "url": "https://devin.ai/pricing",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "Cognition",
+      "tiers": {
+        "Core": "$20/月(基础)+ACU $2.25/个(~15min工作)",
+        "Team": "$500/月(含250 ACU, 额外$2.00/ACU)",
+        "Enterprise": "定制(VPC部署+SAML SSO)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Tabnine": {
+      "url": "https://www.tabnine.com/pricing",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "Tabnine",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "Dev/Pro": "$12/月",
+        "Enterprise": "$39/人/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 1
+    },
+    "Replit": {
+      "url": "https://replit.com/pricing",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "Replit",
+      "tiers": {
+        "Starter": "免费",
+        "Core": "$20/月(年付,原$25已降价,含5人协作)",
+        "Pro": "$100/月(替代Teams,含15人协作,credit可滚存1月)",
+        "Enterprise": "定制"
+      },
+      "last_updated": "2026-04-06",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-06",
+      "scan_priority": 1
+    },
+    "Claude Code": {
+      "url": "https://claude.com/pricing",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "Anthropic",
+      "tiers": {
+        "含在Claude订阅": "Pro/Max/Team订阅含Code使用",
+        "注": "2026.4.4起第三方工具(OpenClaw等)使用需额外按量付费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-06",
+      "scan_priority": 1
+    },
+    "Sourcegraph Cody": {
+      "url": "https://sourcegraph.com/pricing",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "Sourcegraph",
+      "last_updated": "2026-04-07",
+      "tiers": {
+        "Free": "已于2025-07-23停服",
+        "Pro": "已于2025-07-23停服(原$9/月)",
+        "Enterprise (Amp)": "$59/人/月",
+        "注": "产品已从Cody重品牌为Amp; 新注册仅提供Amp"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-07",
+      "scan_priority": 1
+    },
+    "Amazon Q Developer": {
+      "url": "https://aws.amazon.com/q/developer/pricing/",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "AWS",
+      "tiers": {
+        "Free": "免费",
+        "Pro": "$19/人/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "JetBrains AI": {
+      "url": "https://www.jetbrains.com/ai/",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "JetBrains",
+      "tiers": {
+        "Free": "免费(含IDE)",
+        "AI Pro": "$10/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Augment Code": {
+      "url": "https://www.augmentcode.com/pricing",
+      "category": "AI 编程工具",
+      "region": "海外",
+      "company": "Augment",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "Indie": "$20/月(40,000积分)",
+        "Standard": "$60/月(130,000积分,最多20用户)",
+        "Max": "$200/月(450,000积分)",
+        "Enterprise": "定制"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 1
+    },
+    "通义灵码": {
+      "url": "https://tongyi.aliyun.com/lingma",
+      "category": "AI 编程工具",
+      "region": "国内",
+      "company": "阿里云",
+      "tiers": {
+        "个人版": "免费",
+        "企业版": "按企业规模定制"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "CodeGeeX": {
+      "url": "https://codegeex.cn",
+      "category": "AI 编程工具",
+      "region": "国内",
+      "company": "智谱AI",
+      "tiers": {
+        "免费": "免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "MarsCode (豆包)": {
+      "url": "https://www.marscode.cn",
+      "category": "AI 编程工具",
+      "region": "国内",
+      "company": "字节跳动",
+      "tiers": {},
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Baidu Comate": {
+      "url": "https://comate.baidu.com",
+      "category": "AI 编程工具",
+      "region": "国内",
+      "company": "百度",
+      "tiers": {
+        "个人版": "免费",
+        "企业版": "按企业定制"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "商汤代码小浣熊": {
+      "url": "https://raccoon.sensetime.com",
+      "category": "AI 编程工具",
+      "region": "国内",
+      "company": "商汤科技",
+      "tiers": {
+        "免费": "免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 1
+    },
+    "Midjourney": {
+      "url": "https://www.midjourney.com/account",
+      "category": "AI 图像/视频",
+      "region": "海外",
+      "company": "Midjourney",
+      "tiers": {
+        "Basic": "$10/月",
+        "Standard": "$30/月",
+        "Pro": "$60/月",
+        "Mega": "$120/月"
+      },
+      "content_hash": "",
+      "auto_scan": false,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "DALL·E": {
+      "url": "https://openai.com/api/pricing/",
+      "category": "AI 图像/视频",
+      "region": "海外",
+      "company": "OpenAI",
+      "tiers": {
+        "API": "$0.04-0.12/张(HD)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Stable Diffusion": {
+      "url": "https://platform.stability.ai/pricing",
+      "category": "AI 图像/视频",
+      "region": "海外",
+      "company": "Stability AI",
+      "tiers": {
+        "API": "按积分计费(~$0.01-0.05/张)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Ideogram": {
+      "url": "https://ideogram.ai/pricing",
+      "category": "AI 图像/视频",
+      "region": "海外",
+      "company": "Ideogram",
+      "tiers": {
+        "Free": "免费",
+        "Plus": "$8/月",
+        "Pro": "$20/月"
+      },
+      "content_hash": "",
+      "auto_scan": false,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Sora": {
+      "url": "https://chatgpt.com/pricing/",
+      "category": "AI 图像/视频",
+      "region": "海外",
+      "company": "OpenAI",
+      "tiers": {
+        "含在ChatGPT Plus": "$20/月(含ChatGPT Plus)",
+        "含在ChatGPT Pro": "$200/月(含ChatGPT Pro)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Runway": {
+      "url": "https://runwayml.com/pricing",
+      "category": "AI 图像/视频",
+      "region": "海外",
+      "company": "Runway",
+      "tiers": {
+        "Free": "免费",
+        "Standard": "$12/月",
+        "Pro": "$28/月",
+        "Unlimited": "$76/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Pika": {
+      "url": "https://pika.art/pricing",
+      "category": "AI 图像/视频",
+      "region": "海外",
+      "company": "Pika",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "Free": "免费",
+        "Standard": "$8/月(年付)",
+        "Pro": "$28/月(年付)",
+        "Fancy": "$76/月(年付)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 2
+    },
+    "可灵 (快手)": {
+      "url": "https://klingai.kuaishou.com/pricing",
+      "category": "AI 图像/视频",
+      "region": "国内",
+      "company": "快手",
+      "tiers": {
+        "标准版": "¥58/月(660灵感值)",
+        "高级版": "¥234/月(3150灵感值)",
+        "尊享版": "¥586/月(8500灵感值)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "即梦 (字节)": {
+      "url": "https://jimeng.jianying.com",
+      "category": "AI 图像/视频",
+      "region": "国内",
+      "company": "字节跳动",
+      "tiers": {
+        "标准版": "¥239/年",
+        "高级版": "¥649/年"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "通义万相": {
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "category": "AI 图像/视频",
+      "region": "国内",
+      "company": "阿里云",
+      "tiers": {
+        "按量计费": "¥0.04-0.20/张"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Microsoft 365 Copilot": {
+      "url": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing",
+      "category": "AI 企业套件",
+      "region": "海外",
+      "company": "Microsoft",
+      "tiers": {
+        "Business": "$21/人/月(年付)\n促销$18至2026.6",
+        "Enterprise (E3/E5)": "$30/人/月(年付)",
+        "注": "2026.7.1起E3从$36→$42, E5从$57→$65(含Copilot Chat+Defender for Office P1+Intune Suite)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-07",
+      "scan_priority": 2,
+      "last_updated": "2026-04-07"
+    },
+    "Google Workspace (Gemini)": {
+      "url": "https://workspace.google.com/pricing",
+      "category": "AI 企业套件",
+      "region": "海外",
+      "company": "Google",
+      "tiers": {},
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Notion AI": {
+      "url": "https://www.notion.com/pricing",
+      "category": "AI 企业套件",
+      "region": "海外",
+      "company": "Notion",
+      "tiers": {
+        "Plus": "$10/人/月(年付)/$12(月付)",
+        "Business": "$20/人/月(年付)/$24(月付)",
+        "Enterprise": "联系销售",
+        "注": "AI功能仅含在Business/Enterprise中; Free/Plus仅有限试用"
+      },
+      "last_updated": "2026-04-05",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 2
+    },
+    "Jasper": {
+      "url": "https://www.jasper.ai/pricing",
+      "category": "AI 企业套件",
+      "region": "海外",
+      "company": "Jasper",
+      "tiers": {
+        "Creator": "$39/月(年付)/$49/月(月付)",
+        "Pro": "$59/月(年付)/$69/月(月付)",
+        "Business": "定制",
+        "注": "Starter已停售,Creator为新增入门档位"
+      },
+      "last_updated": "2026-04-07",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-07",
+      "scan_priority": 2
+    },
+    "Slack AI": {
+      "url": "https://slack.com/pricing",
+      "category": "AI 企业套件",
+      "region": "海外",
+      "company": "Salesforce",
+      "tiers": {
+        "Business+": "$15/人/月(年付, 含AI功能)\n注：原AI加购包已停售，AI集成入Business+"
+      },
+      "last_updated": "2026-04-05",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 2
+    },
+    "Salesforce Einstein": {
+      "url": "https://www.salesforce.com/artificial-intelligence/",
+      "category": "AI 企业套件",
+      "region": "海外",
+      "company": "Salesforce",
+      "tiers": {
+        "平台": "$60-$100/人/月(加购)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "钉钉 AI": {
+      "url": "https://page.dingtalk.com/wow/z/dingtalk/simple/ddhomedownla498/index",
+      "category": "AI 企业套件",
+      "region": "国内",
+      "company": "阿里",
+      "tiers": {
+        "专业版": "¥9,800/年(起)+AI加购"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "飞书 AI": {
+      "url": "https://www.feishu.cn/pricing",
+      "category": "AI 企业套件",
+      "region": "国内",
+      "company": "字节跳动",
+      "tiers": {
+        "标准版": "¥50/人/月",
+        "企业版": "¥80/人/月",
+        "旗舰版": "¥120/人/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "WPS AI": {
+      "url": "https://ai.wps.cn",
+      "category": "AI 企业套件",
+      "region": "国内",
+      "company": "金山",
+      "tiers": {
+        "个人版": "¥25/月(连续包月)",
+        "企业版": "¥35/人/月起"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "腾讯文档 AI": {
+      "url": "https://docs.qq.com",
+      "category": "AI 企业套件",
+      "region": "国内",
+      "company": "腾讯",
+      "tiers": {
+        "会员": "含在腾讯文档VIP(¥15/月起)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Exa": {
+      "url": "https://exa.ai/pricing",
+      "category": "AI 搜索",
+      "region": "海外",
+      "company": "Exa",
+      "tiers": {
+        "Free": "免费(1000次/月)",
+        "Search": "$7/1000次请求(按量付费)",
+        "Deep Search": "$12/1000次请求",
+        "Enterprise": "联系销售"
+      },
+      "last_updated": "2026-04-05",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 2
+    },
+    "秘塔AI搜索": {
+      "url": "https://metaso.cn",
+      "category": "AI 搜索",
+      "region": "国内",
+      "company": "秘塔科技",
+      "tiers": {
+        "免费版": "免费",
+        "会员": "¥99/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "天工AI搜索": {
+      "url": "https://www.tiangong.cn",
+      "category": "AI 搜索",
+      "region": "国内",
+      "company": "昆仑万维",
+      "tiers": {},
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "360AI搜索": {
+      "url": "https://www.360.cn",
+      "category": "AI 搜索",
+      "region": "国内",
+      "company": "360",
+      "tiers": {
+        "免费": "免费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "夸克AI搜索": {
+      "url": "https://quark.sm.cn",
+      "category": "AI 搜索",
+      "region": "国内",
+      "company": "阿里",
+      "tiers": {
+        "免费版": "免费",
+        "超级会员": "¥30/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Canva": {
+      "url": "https://www.canva.com/pricing/",
+      "category": "AI 设计",
+      "region": "海外",
+      "company": "Canva",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "Free": "免费",
+        "Pro": "$12.99/月(1人)",
+        "Business": "$20/用户/月(新客户,原Teams已停售给新用户)",
+        "Enterprise": "联系销售"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 3
+    },
+    "Figma": {
+      "url": "https://www.figma.com/pricing/",
+      "category": "AI 设计",
+      "region": "海外",
+      "company": "Figma",
+      "tiers": {
+        "Starter": "免费",
+        "Professional": "$15/编辑者/月(年付)\n$20/编辑者/月(月付)",
+        "Organization": "$55/编辑者/月",
+        "Enterprise": "$90/编辑者/月"
+      },
+      "last_updated": "2026-04-05",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 3
+    },
+    "Adobe Firefly": {
+      "url": "https://www.adobe.com/products/firefly/plans.html",
+      "category": "AI 设计",
+      "region": "海外",
+      "company": "Adobe",
+      "tiers": {
+        "Free": "免费",
+        "Premium": "$9.99/月",
+        "含在Creative Cloud": "$54.99/月(全套)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "即时AI (即时设计)": {
+      "url": "https://js.design",
+      "category": "AI 设计",
+      "region": "国内",
+      "company": "即时设计",
+      "tiers": {
+        "免费版": "免费",
+        "专业版": "¥30/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Motiff": {
+      "url": "https://motiff.com",
+      "category": "AI 设计",
+      "region": "国内",
+      "company": "猿辅导",
+      "tiers": {
+        "免费版": "免费",
+        "Pro": "$12/编辑者/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "美图AI": {
+      "url": "https://www.meitu.com",
+      "category": "AI 设计",
+      "region": "国内",
+      "company": "美图",
+      "tiers": {
+        "会员": "¥30/月起"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "稿定设计AI": {
+      "url": "https://www.gaoding.com",
+      "category": "AI 设计",
+      "region": "国内",
+      "company": "稿定设计",
+      "tiers": {
+        "会员": "¥29/月起"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "ElevenLabs": {
+      "url": "https://elevenlabs.io/pricing",
+      "category": "AI 音频",
+      "region": "海外",
+      "company": "ElevenLabs",
+      "tiers": {
+        "Free": "免费(10000 credits/月)",
+        "Starter": "$5/月",
+        "Creator": "$22/月",
+        "Pro": "$99/月",
+        "Scale": "$330+/月",
+        "Music API": "$0.80/分钟"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Suno": {
+      "url": "https://suno.com/pricing",
+      "category": "AI 音频",
+      "region": "海外",
+      "company": "Suno",
+      "tiers": {
+        "Free": "免费(50积分/天)",
+        "Pro": "$10/月(2,500积分/月)",
+        "Premier": "$30/月(10,000积分/月)"
+      },
+      "last_updated": "2026-04-07",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-07",
+      "scan_priority": 3
+    },
+    "Udio": {
+      "url": "https://www.udio.com/pricing",
+      "category": "AI 音频",
+      "region": "海外",
+      "company": "Udio",
+      "tiers": {
+        "Free": "免费",
+        "Standard": "$10/月",
+        "Pro": "$30/月"
+      },
+      "content_hash": "",
+      "auto_scan": false,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Murf AI": {
+      "url": "https://murf.ai/pricing",
+      "category": "AI 音频",
+      "region": "海外",
+      "company": "Murf AI",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "Free": "免费",
+        "Creator Lite": "$29/月",
+        "Creator Plus": "$49/月",
+        "Business Lite": "$99/月",
+        "Business Plus": "$199/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 3
+    },
+    "Descript": {
+      "url": "https://www.descript.com/pricing",
+      "category": "AI 音频",
+      "region": "海外",
+      "company": "Descript",
+      "tiers": {
+        "Free": "免费",
+        "Hobbyist": "$16/月",
+        "Creator": "$24/月",
+        "Business": "$50/月"
+      },
+      "last_updated": "2026-04-05",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 3
+    },
+    "天工AI音乐": {
+      "url": "https://www.tiangong.cn",
+      "category": "AI 音频",
+      "region": "国内",
+      "company": "昆仑万维",
+      "tiers": {},
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "讯飞语音": {
+      "url": "https://www.xfyun.cn/services/online_tts",
+      "category": "AI 音频",
+      "region": "国内",
+      "company": "科大讯飞",
+      "tiers": {
+        "API": "按量计费(新用户免费额度)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Julius AI": {
+      "url": "https://julius.ai/pricing",
+      "category": "AI 数据分析",
+      "region": "海外",
+      "company": "Julius",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "Free": "免费",
+        "Plus/Lite": "$20/月($16.66/月年付)",
+        "Pro/Standard": "$45/月($37.50/月年付)",
+        "Max": "$200/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 3
+    },
+    "Hex": {
+      "url": "https://hex.tech/pricing",
+      "category": "AI 数据分析",
+      "region": "海外",
+      "company": "Hex",
+      "tiers": {
+        "Community": "免费",
+        "Professional": "$36/编辑者/月",
+        "Team": "$75/编辑者/月",
+        "Enterprise": "联系销售"
+      },
+      "last_updated": "2026-04-05",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 3
+    },
+    "Power BI": {
+      "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing",
+      "category": "AI 数据分析",
+      "region": "海外",
+      "company": "Microsoft",
+      "tiers": {
+        "Free": "免费",
+        "Pro": "$14/人/月(年付)",
+        "Premium Per User": "$24/人/月(年付)"
+      },
+      "last_updated": "2026-04-05",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 3
+    },
+    "Tableau": {
+      "url": "https://www.tableau.com/pricing",
+      "category": "AI 数据分析",
+      "region": "海外",
+      "company": "Salesforce",
+      "tiers": {
+        "Viewer": "$15/人/月",
+        "Explorer": "$42/人/月",
+        "Creator": "$75/人/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Databricks AI/BI": {
+      "url": "https://www.databricks.com/product/pricing",
+      "category": "AI 数据分析",
+      "region": "海外",
+      "company": "Databricks",
+      "tiers": {
+        "平台": "按DBU计费(~$0.07-0.75/DBU)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "阿里云Quick BI": {
+      "url": "https://www.aliyun.com/product/bigdata/bi",
+      "category": "AI 数据分析",
+      "region": "国内",
+      "company": "阿里云",
+      "tiers": {},
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "帆软FineBI": {
+      "url": "https://www.finebi.com",
+      "category": "AI 数据分析",
+      "region": "国内",
+      "company": "帆软",
+      "tiers": {
+        "商业版": "按License定制"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Zapier": {
+      "url": "https://zapier.com/pricing",
+      "category": "AI Agent",
+      "region": "海外",
+      "company": "Zapier",
+      "tiers": {
+        "Free": "免费",
+        "Professional": "$19.99/月(年付)",
+        "Team": "$69/月(年付)",
+        "Enterprise": "联系销售"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "n8n": {
+      "url": "https://n8n.io/pricing",
+      "category": "AI Agent",
+      "region": "海外",
+      "company": "n8n",
+      "tiers": {
+        "Starter": "$24/月",
+        "Pro": "$60/月",
+        "Enterprise": "联系销售"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Make (Integromat)": {
+      "url": "https://www.make.com/en/pricing",
+      "category": "AI Agent",
+      "region": "海外",
+      "company": "Make",
+      "tiers": {
+        "Free": "免费",
+        "Core": "$9/月(年付)",
+        "Pro": "$16/月(年付)",
+        "Teams": "$29/月(年付)",
+        "Enterprise": "联系销售"
+      },
+      "last_updated": "2026-04-05",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Dify": {
+      "url": "https://dify.ai/pricing",
+      "category": "AI Agent",
+      "region": "海外",
+      "company": "Dify",
+      "tiers": {
+        "Sandbox": "免费",
+        "Professional": "$59/月",
+        "Team": "$159/月",
+        "Enterprise": "联系销售"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "LangChain/LangSmith": {
+      "url": "https://www.langchain.com/pricing",
+      "category": "AI Agent",
+      "region": "海外",
+      "company": "LangChain",
+      "tiers": {
+        "Developer": "免费(5000 traces)",
+        "Plus": "$39/月",
+        "Enterprise": "联系销售"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "CrewAI": {
+      "url": "https://www.crewai.com",
+      "category": "AI Agent",
+      "region": "海外",
+      "company": "CrewAI",
+      "tiers": {
+        "Free": "免费",
+        "Enterprise": "联系销售"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "扣子 (Coze)": {
+      "url": "https://www.coze.cn",
+      "category": "AI Agent",
+      "region": "国内",
+      "company": "字节跳动",
+      "tiers": {
+        "免费版": "免费",
+        "专业版": "按用量计费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "百度智能体平台": {
+      "url": "https://agents.baidu.com",
+      "category": "AI Agent",
+      "region": "国内",
+      "company": "百度",
+      "tiers": {
+        "免费": "免费(基础)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "阿里云百炼": {
+      "url": "https://bailian.console.aliyun.com",
+      "category": "AI Agent",
+      "region": "国内",
+      "company": "阿里云",
+      "tiers": {
+        "按量计费": "模型调用费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 2
+    },
+    "Duolingo": {
+      "url": "https://www.duolingo.com/pricing",
+      "category": "AI 教育",
+      "region": "海外",
+      "company": "Duolingo",
+      "tiers": {
+        "Free": "免费(含广告)",
+        "Super": "$12.99/月",
+        "Max": "$29.99/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Khan Academy (Khanmigo)": {
+      "url": "https://www.khanacademy.org/khan-labs",
+      "category": "AI 教育",
+      "region": "海外",
+      "company": "Khan Academy",
+      "tiers": {
+        "Free": "免费",
+        "Premium": "$44/年"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Chegg (CheggMate)": {
+      "url": "https://www.chegg.com",
+      "category": "AI 教育",
+      "region": "海外",
+      "company": "Chegg",
+      "tiers": {
+        "会员": "$19.95/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Quizlet": {
+      "url": "https://quizlet.com/upgrade",
+      "category": "AI 教育",
+      "region": "海外",
+      "company": "Quizlet",
+      "tiers": {
+        "Free": "免费",
+        "Plus": "$7.99/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Coursera": {
+      "url": "https://www.coursera.org/courseraplus",
+      "category": "AI 教育",
+      "region": "海外",
+      "company": "Coursera",
+      "tiers": {
+        "Plus": "$59/月($399/年)"
+      },
+      "last_updated": "2026-04-05",
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "有道Hi Echo": {
+      "url": "https://hi-echo.youdao.com",
+      "category": "AI 教育",
+      "region": "国内",
+      "company": "网易有道",
+      "tiers": {
+        "会员": "~¥98/年"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "学而思AI": {
+      "url": "https://www.xueersi.com",
+      "category": "AI 教育",
+      "region": "国内",
+      "company": "学而思",
+      "tiers": {
+        "随材购买": "随课程定价"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "科大讯飞AI学习机": {
+      "url": "https://www.iflytek.com",
+      "category": "AI 教育",
+      "region": "国内",
+      "company": "科大讯飞",
+      "tiers": {
+        "硬件+服务": "¥3,999-6,999(设备)\n+年服务费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "DeepL": {
+      "url": "https://www.deepl.com/pro",
+      "category": "AI 翻译",
+      "region": "海外",
+      "company": "DeepL",
+      "tiers": {
+        "Free": "免费",
+        "Starter": "$5.49/人/月(年付)+$20/100万字符",
+        "Advanced": "$8.74/人/月(年付)+按量",
+        "Ultimate": "$28.74/人/月(年付)+按量",
+        "API Free": "免费(50万字符/月)",
+        "API Pro": "$5.49/月+$20/100万字符"
+      },
+      "content_hash": "",
+      "auto_scan": false,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Google Translate API": {
+      "url": "https://cloud.google.com/translate/pricing",
+      "category": "AI 翻译",
+      "region": "海外",
+      "company": "Google",
+      "tiers": {
+        "API": "$20/100万字符"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Amazon Translate": {
+      "url": "https://aws.amazon.com/translate/pricing/",
+      "category": "AI 翻译",
+      "region": "海外",
+      "company": "AWS",
+      "tiers": {
+        "API": "$15/100万字符"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Microsoft Translator": {
+      "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/",
+      "category": "AI 翻译",
+      "region": "海外",
+      "company": "Microsoft",
+      "tiers": {
+        "API": "$10/100万字符"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "百度翻译 API": {
+      "url": "https://fanyi-api.baidu.com/product/11",
+      "category": "AI 翻译",
+      "region": "国内",
+      "company": "百度",
+      "tiers": {
+        "标准版": "免费(基础)+高级¥49/月起",
+        "高级版": "¥49/月"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "火山翻译": {
+      "url": "https://www.volcengine.com/product/machine-translation",
+      "category": "AI 翻译",
+      "region": "国内",
+      "company": "字节跳动",
+      "tiers": {
+        "API": "¥40/100万字符(文本)\n¥50/100万字符(文档)"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "有道翻译 API": {
+      "url": "https://ai.youdao.com/product-fanyi-text.s",
+      "category": "AI 翻译",
+      "region": "国内",
+      "company": "网易有道",
+      "tiers": {
+        "API": "¥48/100万字符"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Synthesia": {
+      "url": "https://www.synthesia.io/pricing",
+      "category": "AI 数字人",
+      "region": "海外",
+      "company": "Synthesia",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "Starter": "$29/月($18/月年付)",
+        "Creator": "$89/月($64/月年付)",
+        "Enterprise": "定制"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 3
+    },
+    "HeyGen": {
+      "url": "https://www.heygen.com/pricing",
+      "category": "AI 数字人",
+      "region": "海外",
+      "company": "HeyGen",
+      "last_updated": "2026-04-05",
+      "tiers": {
+        "Free": "免费(3视频/月, 带水印)",
+        "Creator": "$29/月($24/月年付)",
+        "Business": "$149/月+$20/额外席位(含5自定义Avatar)",
+        "Enterprise": "定制"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": "2026-04-05",
+      "scan_priority": 3
+    },
+    "D-ID": {
+      "url": "https://www.d-id.com/pricing",
+      "category": "AI 数字人",
+      "region": "海外",
+      "company": "D-ID",
+      "tiers": {
+        "Free": "免费",
+        "Lite": "$5.90/月",
+        "Pro": "$29.90/月",
+        "Enterprise": "联系销售"
+      },
+      "content_hash": "",
+      "auto_scan": false,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "Colossyan": {
+      "url": "https://www.colossyan.com/pricing",
+      "category": "AI 数字人",
+      "region": "海外",
+      "company": "Colossyan",
+      "tiers": {
+        "Starter": "$27/月",
+        "Pro": "$87/月",
+        "Enterprise": "联系销售"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "硅基数字人": {
+      "url": "https://www.guiji.ai",
+      "category": "AI 数字人",
+      "region": "国内",
+      "company": "硅基智能",
+      "tiers": {
+        "标准版": "¥4,800/年起",
+        "企业版": "¥19,800/年起"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "腾讯智影": {
+      "url": "https://zenvideo.qq.com",
+      "category": "AI 数字人",
+      "region": "国内",
+      "company": "腾讯",
+      "tiers": {
+        "免费版": "免费",
+        "会员": "¥30/月起"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "商汤如影": {
+      "url": "https://www.sensetime.com",
+      "category": "AI 数字人",
+      "region": "国内",
+      "company": "商汤科技",
+      "tiers": {
+        "企业版": "按项目定制"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    },
+    "百度数字人": {
+      "url": "https://cloud.baidu.com/product/baizhong",
+      "category": "AI 数字人",
+      "region": "国内",
+      "company": "百度",
+      "tiers": {
+        "平台版": "按调用计费"
+      },
+      "content_hash": "",
+      "auto_scan": true,
+      "last_changed": null,
+      "scan_priority": 3
+    }
+  },
+  "schema_version": 2,
+  "scan_config": {
+    "description": "Two-phase scanning: Phase 1 (hash check) for all auto_scan products, Phase 2 (deep analysis) only for hash-changed pages",
+    "no_auto_scan_count": 6,
+    "change_types": [
+      "涨价",
+      "降价",
+      "新增档位",
+      "移除档位",
+      "产品重构",
+      "计费模式变更",
+      "无法确认"
+    ]
+  },
+  "category_mapping": {
+    "LLM API": {
+      "feishu_name": "LLM API",
+      "table_id": "tblNOpqf0KmIxW6O"
+    },
+    "AI 助手": {
+      "feishu_name": "AI 助手",
+      "table_id": "tblwDkBdNt8kPPtF"
+    },
+    "AI 编程工具": {
+      "feishu_name": "AI 编程工具",
+      "table_id": "tblYyiYxuTms9SIm"
+    },
+    "AI 图像/视频": {
+      "feishu_name": "AI 图像视频生成",
+      "table_id": "tbl65dB0oK6sEhR7"
+    },
+    "AI 企业套件": {
+      "feishu_name": "AI 企业套件办公",
+      "table_id": "tblLMQF1RRKrhi98"
+    },
+    "AI 搜索": {
+      "feishu_name": "AI 搜索",
+      "table_id": "tbl5F0eQV7wrx1Tr"
+    },
+    "AI 设计": {
+      "feishu_name": "AI 设计工具",
+      "table_id": "tbl7TrxiNDt0gOUC"
+    },
+    "AI 音频": {
+      "feishu_name": "AI 音频语音音乐",
+      "table_id": "tblHJrtVyzqnWI9r"
+    },
+    "AI 数据分析": {
+      "feishu_name": "AI 数据分析",
+      "table_id": "tblKWfTDtjM5DLl7"
+    },
+    "AI Agent": {
+      "feishu_name": "AI Agent 自动化",
+      "table_id": "tblQCQXIe6VbsRTz"
+    },
+    "AI 教育": {
+      "feishu_name": "AI 教育",
+      "table_id": "tblxyPE3Sm3Af3vP"
+    },
+    "AI 翻译": {
+      "feishu_name": "AI 翻译",
+      "table_id": "tbl1jprIRz4z1IGI"
+    },
+    "AI 数字人": {
+      "feishu_name": "AI 数字人视频分身",
+      "table_id": "tblg19R0aFPLnBKb"
+    }
+  },
+  "scan_log_table_id": "tblrHS5EJj2CJyuo"
+}

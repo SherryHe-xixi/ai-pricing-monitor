@@ -1,0 +1,18 @@
+{
+  "scan_date": "2026-04-07T21:10:00",
+  "scan_method": "WebFetch(部分)+WebSearch(主要)",
+  "total_products": 136,
+  "scanned": 130,
+  "skipped_auto_scan_false": 6,
+  "changes_confirmed": 0,
+  "changes_pending": 0,
+  "pending_resolved": [
+    {
+      "product": "Tabnine",
+      "category": "AI 编程工具",
+      "resolution": "Dev plan 确认为 $12/月（从$9涨至$12），baseline 中 $12 为正确价格，pending_change 已清除"
+    }
+  ],
+  "scan_notes": "WebFetch 被 egress proxy 大面积封锁，仅 github.com 和 claude.com 可用。降级至 WebSearch 批量搜索，无法计算 content_hash。所有 P1/P2/P3 品类通过 WebSearch 覆盖，未检测到已确认的定价变更。",
+  "feishu_log_record_id": "recvg6TUQBR0pd"
+}
